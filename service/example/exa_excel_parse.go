@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/system"
+	"github.com/liwss/kubernetesAdmin/server/global"
+	"github.com/liwss/kubernetesAdmin/server/model/system"
 	"github.com/xuri/excelize/v2"
 )
 

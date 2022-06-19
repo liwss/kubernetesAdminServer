@@ -2,7 +2,7 @@
 package autocode
 
 import (
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
+	"github.com/liwss/kubernetesAdmin/server/global"
 )
 
 // {{.StructName}} 结构体

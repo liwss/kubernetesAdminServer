@@ -8,9 +8,9 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/common/response"
 	"github.com/gin-gonic/gin"
+	"github.com/liwss/kubernetesAdmin/server/global"
+	"github.com/liwss/kubernetesAdmin/server/model/common/response"
 )
 
 type LimitConfig struct {

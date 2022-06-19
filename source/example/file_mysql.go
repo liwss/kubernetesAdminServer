@@ -1,8 +1,8 @@
 package example
 
 import (
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/example"
+	"github.com/liwss/kubernetesAdmin/server/global"
+	"github.com/liwss/kubernetesAdmin/server/model/example"
 	"github.com/pkg/errors"
 	"gorm.io/gorm"
 )

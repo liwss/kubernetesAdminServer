@@ -1,3 +1,5 @@
-[github.com/flipped-aurora/gin-vue-admin/server]2022/05/10 - 17:05:28.079	[31merror[0m	D:/code/go/src/gin-vue-admin/server/api/v1/system/sys_authority.go:87	删除失败!	{"error": "此角色有用户正在使用禁止删除"}
-[github.com/flipped-aurora/gin-vue-admin/server]2022/05/10 - 17:05:36.544	[31merror[0m	D:/code/go/src/gin-vue-admin/server/api/v1/system/sys_authority.go:87	删除失败!	{"error": "此角色有用户正在使用禁止删除"}
-[github.com/flipped-aurora/gin-vue-admin/server]2022/05/10 - 17:08:25.503	[31merror[0m	D:/code/go/src/gin-vue-admin/server/api/v1/system/sys_user.go:230	修改失败!	{"error": "empty slice found"}
+[github.com/liwss/kubernetesAdmin/server]2022/05/10 - 17:05:28.079	[31merror[0m	D:/code/go/src/gin-vue-admin/server/api/v1/system/sys_authority.go:87	删除失败!	{"error": "此角色有用户正在使用禁止删除"}
+[github.com/liwss/kubernetesAdmin/server]2022/05/10 - 17:05:36.544	[31merror[0m	D:/code/go/src/gin-vue-admin/server/api/v1/system/sys_authority.go:87	删除失败!	{"error": "此角色有用户正在使用禁止删除"}
+[github.com/liwss/kubernetesAdmin/server]2022/05/10 - 17:08:25.503	[31merror[0m	D:/code/go/src/gin-vue-admin/server/api/v1/system/sys_user.go:230	修改失败!	{"error": "empty slice found"}
+[github.com/liwss/kubernetesAdmin/server]2022/05/11 - 23:31:07.685	[31merror[0m	D:/code/go/src/gin-vue-admin/server/api/v1/system/sys_user.go:34	登陆失败! 用户名不存在或者密码错误!	{"error": "db not init"}
+[github.com/liwss/kubernetesAdmin/server]2022/05/12 - 10:30:13.503	[31merror[0m	/mnt/d/code/go/src/gin-vue-admin/server/core/server.go:44	accept tcp [::]:8888: use of closed network connection

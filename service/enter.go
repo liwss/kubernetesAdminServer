@@ -1,9 +1,9 @@
 package service
 
 import (
-	"github.com/flipped-aurora/gin-vue-admin/server/service/autocode"
-	"github.com/flipped-aurora/gin-vue-admin/server/service/example"
-	"github.com/flipped-aurora/gin-vue-admin/server/service/system"
+	"github.com/liwss/kubernetesAdmin/server/service/autocode"
+	"github.com/liwss/kubernetesAdmin/server/service/example"
+	"github.com/liwss/kubernetesAdmin/server/service/system"
 )
 
 type ServiceGroup struct {

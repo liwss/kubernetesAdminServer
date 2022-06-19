@@ -1,8 +1,8 @@
 package autocode
 
 import (
-	"github.com/flipped-aurora/gin-vue-admin/server/api/v1"
-	"github.com/flipped-aurora/gin-vue-admin/server/middleware"
+	"github.com/liwss/kubernetesAdmin/server/api/v1"
+	"github.com/liwss/kubernetesAdmin/server/middleware"
 	"github.com/gin-gonic/gin"
 )
 

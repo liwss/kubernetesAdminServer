@@ -9,9 +9,9 @@ import (
 
 	"github.com/songzhibin97/gkit/cache/local_cache"
 
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
-	_ "github.com/flipped-aurora/gin-vue-admin/server/packfile"
-	"github.com/flipped-aurora/gin-vue-admin/server/utils"
+	"github.com/liwss/kubernetesAdmin/server/global"
+	_ "github.com/liwss/kubernetesAdmin/server/packfile"
+	"github.com/liwss/kubernetesAdmin/server/utils"
 
 	"github.com/fsnotify/fsnotify"
 	"github.com/spf13/viper"
@@ -20,6 +20,7 @@ import (
 func Viper(path ...string) *viper.Viper {
 	var config string
 	if len(path) == 0 {
+		// 用于处理命令行参数
 		flag.StringVar(&config, "c", "", "choose config file.")
 		flag.Parse()
 		if config == "" { // 优先级: 命令行 > 环境变量 > 默认值

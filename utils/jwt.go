@@ -3,8 +3,8 @@ package utils
 import (
 	"errors"
 	"github.com/dgrijalva/jwt-go"
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/system/request"
+	"github.com/liwss/kubernetesAdmin/server/global"
+	"github.com/liwss/kubernetesAdmin/server/model/system/request"
 	"time"
 )
 

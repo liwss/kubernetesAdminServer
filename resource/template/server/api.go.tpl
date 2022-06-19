@@ -1,12 +1,12 @@
 package autocode
 
 import (
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
-    "github.com/flipped-aurora/gin-vue-admin/server/model/autocode"
-    "github.com/flipped-aurora/gin-vue-admin/server/model/common/request"
-    autocodeReq "github.com/flipped-aurora/gin-vue-admin/server/model/autocode/request"
-    "github.com/flipped-aurora/gin-vue-admin/server/model/common/response"
-    "github.com/flipped-aurora/gin-vue-admin/server/service"
+	"github.com/liwss/kubernetesAdmin/server/global"
+    "github.com/liwss/kubernetesAdmin/server/model/autocode"
+    "github.com/liwss/kubernetesAdmin/server/model/common/request"
+    autocodeReq "github.com/liwss/kubernetesAdmin/server/model/autocode/request"
+    "github.com/liwss/kubernetesAdmin/server/model/common/response"
+    "github.com/liwss/kubernetesAdmin/server/service"
     "github.com/gin-gonic/gin"
     "go.uber.org/zap"
 )

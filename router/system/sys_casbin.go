@@ -1,9 +1,9 @@
 package system
 
 import (
-	v1 "github.com/flipped-aurora/gin-vue-admin/server/api/v1"
-	"github.com/flipped-aurora/gin-vue-admin/server/middleware"
 	"github.com/gin-gonic/gin"
+	v1 "github.com/liwss/kubernetesAdmin/server/api/v1"
+	"github.com/liwss/kubernetesAdmin/server/middleware"
 )
 
 type CasbinRouter struct {

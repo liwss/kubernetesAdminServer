@@ -4,10 +4,10 @@ import (
 	"database/sql"
 	"fmt"
 	adapter "github.com/casbin/gorm-adapter/v3"
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/example"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/system"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/system/request"
+	"github.com/liwss/kubernetesAdmin/server/global"
+	"github.com/liwss/kubernetesAdmin/server/model/example"
+	"github.com/liwss/kubernetesAdmin/server/model/system"
+	"github.com/liwss/kubernetesAdmin/server/model/system/request"
 )
 
 type InitDBService struct{}

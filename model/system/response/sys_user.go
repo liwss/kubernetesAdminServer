@@ -1,7 +1,7 @@
 package response
 
 import (
-	"github.com/flipped-aurora/gin-vue-admin/server/model/system"
+	"github.com/liwss/kubernetesAdmin/server/model/system"
 )
 
 type SysUserResponse struct {

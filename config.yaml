@@ -7,7 +7,7 @@ aliyun-oss:
   base-path: yourBasePath
 autocode:
   transfer-restart: true
-  root: D:\code\go\src\gin-vue-admin
+  root: D:\code\go\src\kubernetes-admin
   server: /server
   server-api: /api/v1/autocode
   server-initialize: /initialize
@@ -43,12 +43,12 @@ jwt:
 local:
   path: uploads/file
 mysql:
-  path: 127.0.0.1
+  path: 101.43.253.49
   port: "13306"
   config: charset=utf8mb4&parseTime=True&loc=Local
   db-name: stock
   username: root
-  password: 123456
+  password: Elites2134593
   max-idle-conns: 0
   max-open-conns: 0
   log-mode: ""
@@ -74,8 +74,8 @@ qiniu:
   use-cdn-domains: false
 redis:
   db: 0
-  addr: 127.0.0.1:6379
-  password: ""
+  addr: 101.43.253.49:6379
+  password: "2134593"
 system:
   env: public
   addr: 8888
@@ -90,7 +90,7 @@ tencent-cos:
   secret-id: xxxxxxxx
   secret-key: xxxxxxxx
   base-url: https://gin.vue.admin
-  path-prefix: github.com/flipped-aurora/gin-vue-admin/server
+  path-prefix: github.com/liwss/kubernetesAdmin/server
 timer:
   start: true
   spec: '@daily'
@@ -104,7 +104,7 @@ timer:
 zap:
   level: info
   format: console
-  prefix: '[github.com/flipped-aurora/gin-vue-admin/server]'
+  prefix: '[github.com/liwss/kubernetesAdmin/server]'
   director: log
   showLine: false
   encode-level: LowercaseColorLevelEncoder

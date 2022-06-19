@@ -3,15 +3,15 @@ package system
 import (
 	"errors"
 	"fmt"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/system/response"
+	"github.com/liwss/kubernetesAdmin/server/model/system/response"
 	"path/filepath"
 	"strings"
 	"time"
 
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/common/request"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/system"
-	"github.com/flipped-aurora/gin-vue-admin/server/utils"
+	"github.com/liwss/kubernetesAdmin/server/global"
+	"github.com/liwss/kubernetesAdmin/server/model/common/request"
+	"github.com/liwss/kubernetesAdmin/server/model/system"
+	"github.com/liwss/kubernetesAdmin/server/utils"
 
 	"go.uber.org/zap"
 )
